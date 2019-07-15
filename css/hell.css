@@ -1,0 +1,12 @@
+
+.con{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.bo{
+    width: 500px;
+    height: 200px;
+    background: url("../1560200091(1).png")no-repeat center center ;
+    background-size:200px 100px ;
+}
