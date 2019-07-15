@@ -11,8 +11,8 @@ module.exports = {
         rules: [
             {test:/\.css$/,use:['style-loader','css-loader']},
             {test:/\.(png|jpg|gif)$/,use:'url-loader?limit=15735&name=[hash:8]-[name].[ext]'},
-            { test:/\.js$/, use: 'babel-loader', exclude:/node_modules/ },
-            {test:'\.vue$',use:'vue-load'}
+            // { test:/\.js$/, use: 'babel-loader', exclude:/node_modules/ },
+            {test:/\.vue$/,use:'vue-load'}
         ]
     },
     devServer:{
